@@ -1,0 +1,136 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    
+    
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    
+    <!-- 密码锁界面每个数字按钮的样式-->
+    <style name="Num_Theme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/num_btn</item>
+    </style>
+    
+    <!-- 菜单页面分割线的样式，两条叠加有立体感 -->
+    <style name="Linear_Divide_Top">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">#dddddd</item>
+    </style>
+    <style name="Linear_Divide_Btm">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">#fefefe</item>
+    </style>
+    
+    
+    <!-- 设置页面分割线的样式，两种样式，01是宽度充满的，02是左右有间距的-->
+    <style name="Linear_Divide_Settings01">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#c8c7cc</item>
+    </style>
+    <style name="Linear_Divide_Settings02">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:background">#c8c7cc</item>
+    </style>
+    
+    
+    <!-- 每个菜单项的linear-->
+    <style name="Menu_Linear_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/menu_linear_bg</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    
+    
+    <!-- 设置页面的每个大块linear样式-->
+    <style name="Setting_Linear_Style01">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/setting_kuang_nor</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <!-- 设置页面的每个子块linear样式-->
+    <style name="Setting_Linear_Style02">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>        
+        <item name="android:clickable">true</item>
+      	<item name="android:background">@drawable/settings_linear_bg</item>
+    </style>
+    
+    
+    
+    <!-- titlebar的Txt样式 -->
+    <style name="TitleBar_Txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    
+      <!-- titlebar的Btn样式 -->
+    <style name="TitleBar_Btn">
+        <item name="android:layout_width">45px</item>
+        <item name="android:layout_height">45px</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    
+    
+    
+    <!-- updatepic界面每个linear的样式-->
+    <style name="Update_Pic_Linear">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">150px</item>
+        <item name="android:clickable">true</item>
+        <item name="android:orientation">horizontal</item> 
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    
+    </resources>

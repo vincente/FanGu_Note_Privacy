@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">私密笔记</string>
+
+    <!-- 登陆界面 -->
+    <string name="login_txt_enter_pwd">输入密码</string>
+    <string name="login_txt_forget_pwd">忘记密码</string>
+    <string name="login_txt_delete_pwd">撤销输入</string>
+    <string name="login_txt_tips">初始密码：0000 点击隐藏</string>
+
+    <!-- 密保界面 -->
+    <string name="setsecurity_txt_question">请输入您的密保问题:</string>
+    <string name="setsecurity_txt_answer">请输入问题的答案:</string>
+
+    <!-- 关于界面 -->
+    <string name="about_txt_appname">私密笔记</string>
+    <string name="about_txt_appversion">V 1.1</string>
+    <string name="about_txt_appcopyright">Copyright© 2012&#8211;2013 E Yu. All Rights Reserved </string>
+    <string name="about_txt_touser">致用户</string>
+    <string name="about_txt_touser_detail">朋友您好，感谢您使用《私密笔记》这款工具类软件。这是本人业余时间制作的一款小应用，产品处于不断开发和更新阶段，特别真心的希望您能帮忙测试，并将您所发现的不足之处，以及更好的意见建议告知反馈给我。鉴于国内安卓市场软件免费下载形式，在不影响您的体验的情况下，加入了植入广告，也想借此获取一些微薄的收入，希望您能体谅，同时希望您在处于wifi连接状态时可以下载一些实用的推荐软件，您的支持是对我最大的鼓励，我将不断完善和更新！</string>
+
+    <!-- 修改密码界面 -->
+    <string name="modify_txt_oldpwd">原密码</string>
+    <string name="modify_txt_newpwd">新的4位数字密码</string>
+    <string name="modify_txt_confirmpwd">再次输入新密码</string>
+
+    <!-- 重置密码界面 -->
+    <string name="reset_txt_newpwd">新的4位数字密码</string>
+    <string name="reset_txt_confirmpwd">再次输入新密码</string>
+
+    <!-- 对话框文字 -->
+    <string name="dialog_forget_title">提示</string>
+    <string name="dialog_forget_content">您还未曾设置密保问题！</string>
+    <string name="dialog_forget_ok">知道啦</string>
+    <string name="dialog_forget_btn_cancel">取消</string>
+    <string name="dialog_forget_btn_done">完成</string>
+    <string name="dialog_exit_title">温馨提示</string>
+    <string name="dialog_exit_content1">确定退出梵谷记事本嘛？</string>
+    <string name="dialog_exit_content2">当前处于编辑状态,确定退出吗亲？</string>
+    <string name="dialog_exit_btn_done">确定</string>
+    <string name="dialog_exit_btn_cancel">取消</string>
+    <string name="dialog_popwindow_delete">删除</string>
+    <string name="dialog_popwindow_btn_cancel">取消</string>
+
+    <!-- toast文字 -->
+    <string name="toast_wrong_answer">问题回答不正确</string>
+    <string name="toast_wrong_password">密码错误</string>
+    <string name="toast_delete_success">删除成功</string>
+    <string name="toast_latest_version">已经是最新版本！O(∩_∩)O~</string>
+    <string name="toast_no_wifi">您还没有连接wifi!</string>
+    <string name="toast_timeout">连接超时!</string>
+    <string name="toast_start_download">开始进行下载。。。!</string>
+    <string name="toast_download_process">下载进度</string>
+    <string name="toast_finish_download">下载完成 ^_^</string>
+    <string name="toast_modify_success">修改成功</string>
+    <string name="toast_modify_input_error">原密码输入错误</string>
+    <string name="toast_modify_different">两次输入不一致</string>
+    <string name="toast_modify_isnull">密码不能为空</string>
+    <string name="toast_modify_input_number">请输入4位数字密码</string>
+    <string name="toast_security_success">问题设置成功</string>
+    <string name="toast_security_question">问题不能为空</string>
+    <string name="toast_security_answer">答案不能为空</string>
+    <string name="toast_theme_success">设置成功,请返回查看！</string>
+    <string name="share_content">我正在使用《私密笔记》，还不错哦，推荐给大家~！~！妈妈再也不用担心老婆翻我手机啦！</string>
+
+    <!-- titlebar文字 -->
+    <string name="titlebar_txt_back">返回</string>
+    <string name="titlebar_txt_done">确认</string>
+    <string name="titlebar_txt_title_reset">密码重置</string>
+    <string name="titlebar_txt_title_list">笔记列表</string>
+    <string name="titlebar_txt_title_new">新建笔记</string>
+    <string name="titlebar_txt_title_setting">设置</string>
+    <string name="titlebar_txt_title_feedback">用户反馈</string>
+    <string name="titlebar_txt_title_modifypwd">修改密码</string>
+    <string name="titlebar_txt_title_setquestion">设置问题</string>
+    <string name="titlebar_txt_title_about">关于</string>
+    <string name="titlebar_txt_title_city">城市设置</string>
+    <string name="titlebar_txt_title_touser">致用户</string>
+    <string name="titlebar_txt_title_settheme">主题设置</string>
+
+    <!-- 菜单linear文字 -->
+    <string name="menu_linear_notelist">笔记</string>
+    <string name="menu_linear_settings">设置</string>
+    <string name="menu_linear_feedback">反馈</string>
+    <string name="menu_linear_more">更多</string>
+    <string name="menu_linear_exit">退出</string>
+
+    <!-- 设置linear文字 -->
+    <string name="setting_linear_modifypwd">修改密码</string>
+    <string name="setting_linear_setquestion">设置密码问题</string>
+    <string name="setting_linear_about">关于笔记</string>
+    <string name="setting_linear_share">一键分享</string>
+    <string name="setting_linear_myapps">王婆卖瓜</string>
+    <string name="setting_linear_random">随机抽取应用</string>
+    <string name="setting_linear_location">城市地区</string>
+    <string name="setting_linear_theme">更换菜单主题</string>
+    <string name="setting_linear_update">检测更新</string>
+
+</resources>

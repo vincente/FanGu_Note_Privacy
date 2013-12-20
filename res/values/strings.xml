@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Private Note</string>
+
+    <!-- 登陆界面 -->
+    <string name="login_txt_enter_pwd">Enter Password</string>
+    <string name="login_txt_forget_pwd">Forgot</string>
+    <string name="login_txt_delete_pwd">Delete</string>
+    <string name="login_txt_tips">Initial password:0000. Press to hide</string>
+
+    <!-- 密保界面 -->
+    <string name="setsecurity_txt_question">Input security question:</string>
+    <string name="setsecurity_txt_answer">Input security answer:</string>
+
+    <!-- 关于界面 -->
+    <string name="about_txt_appname">Private Note</string>
+    <string name="about_txt_appversion">V 1.1</string>
+    <string name="about_txt_appcopyright">Copyright© 2012&#8211;2013 E Yu. All Rights Reserved </string>
+    <string name="about_txt_touser">To User</string>
+    <string name="about_txt_touser_detail">  朋友您好，感谢您使用《私密笔记》这款工具类软件。这是本人业余时间制作的一款小应用，产品处于不断开发和更新阶段，特别真心的希望您能帮忙测试，并将您所发现的不足之处，以及更好的意见建议告知反馈给我。\n  鉴于国内安卓市场软件免费下载形式，在不影响您的体验的同时，加入了植入广告，也想借此获取一些微薄的收入，希望您能体谅，同时希望您在处于wifi连接状态时可以下载一些实用的推荐软件，您的支持是对我最大的鼓励，我将不断完善和更新！</string>
+
+    <!-- 修改密码界面 -->
+    <string name="modify_txt_oldpwd">Old password</string>
+    <string name="modify_txt_newpwd">New password</string>
+    <string name="modify_txt_confirmpwd">Repeat new</string>
+
+    <!-- 重置密码界面 -->
+    <string name="reset_txt_newpwd">New password</string>
+    <string name="reset_txt_confirmpwd">Repeat new</string>
+
+    <!-- 对话框文字 -->
+    <string name="dialog_forget_title">Attention</string>
+    <string name="dialog_forget_content">You have not set up secret question!</string>
+    <string name="dialog_forget_ok">OK!</string>
+    <string name="dialog_forget_btn_cancel">Cancel</string>
+    <string name="dialog_forget_btn_done">Done</string>
+    <string name="dialog_exit_title">Attention</string>
+    <string name="dialog_exit_content1">Do you want to exit?</string>
+    <string name="dialog_exit_content2">In edit status! Exit?</string>
+    <string name="dialog_exit_btn_done">Yes</string>
+    <string name="dialog_exit_btn_cancel">Cancel</string>
+    <string name="dialog_popwindow_delete">Delete</string>
+    <string name="dialog_popwindow_btn_cancel">Cancel</string>
+
+    <!-- toast文字 -->
+    <string name="toast_wrong_answer">Wrong answer</string>
+    <string name="toast_wrong_password">Password is wrong</string>
+    <string name="toast_delete_success">Successfully deleted</string>
+    <string name="toast_latest_version">Already latest version！O(∩_∩)O~</string>
+    <string name="toast_no_wifi">There is no wifi!</string>
+    <string name="toast_timeout">Connection timeout!</string>
+    <string name="toast_start_download">Start downloading....</string>
+    <string name="toast_download_process">Process:</string>
+    <string name="toast_finish_download">Finished!^_^</string>
+    <string name="toast_modify_success">Successfully Changed</string>
+    <string name="toast_modify_input_error">Old Password entry error</string>
+    <string name="toast_modify_different">Two inputs are not the same</string>
+    <string name="toast_modify_isnull">Password can\'t be null</string>
+    <string name="toast_modify_input_number">Please enter a 4 digit password</string>
+    <string name="toast_security_success">Successfully set</string>
+    <string name="toast_security_question">Question can\'t be null</string>
+    <string name="toast_security_answer">Answer can\'t be null</string>
+    <string name="toast_theme_success">Set successfully, please check back！</string>
+    <string name="share_content">Hey! I\'m using Private Note! So convenient so cool! No longer need to worry about my privacy!</string>
+
+    <!-- titlebar文字 -->
+    <string name="titlebar_txt_back">Back</string>
+    <string name="titlebar_txt_done">Done</string>
+    <string name="titlebar_txt_title_reset">Reset PWD</string>
+    <string name="titlebar_txt_title_list">Note List</string>
+    <string name="titlebar_txt_title_new">New Note</string>
+    <string name="titlebar_txt_title_setting">Settings</string>
+    <string name="titlebar_txt_title_feedback">Feedbacks</string>
+    <string name="titlebar_txt_title_modifypwd">Change PWD</string>
+    <string name="titlebar_txt_title_setquestion">Set Security</string>
+    <string name="titlebar_txt_title_about">About</string>
+    <string name="titlebar_txt_title_city">Set City</string>
+    <string name="titlebar_txt_title_touser">To User</string>
+    <string name="titlebar_txt_title_settheme">Set Theme</string>
+
+    <!-- 菜单linear文字 -->
+    <string name="menu_linear_notelist">Note List</string>
+    <string name="menu_linear_settings">Settings</string>
+    <string name="menu_linear_feedback">Feedbacks</string>
+    <string name="menu_linear_more">More</string>
+    <string name="menu_linear_exit">Exit</string>
+
+    <!-- 设置linear文字 -->
+    <string name="setting_linear_modifypwd">Change Password</string>
+    <string name="setting_linear_setquestion">Set Security Question</string>
+    <string name="setting_linear_about">About</string>
+    <string name="setting_linear_share">Share to friends</string>
+    <string name="setting_linear_myapps">My Apps</string>
+    <string name="setting_linear_random">Random Apps</string>
+    <string name="setting_linear_location">Set your city</string>
+    <string name="setting_linear_theme">Change Theme</string>
+    <string name="setting_linear_update">Check for updates</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setsecurity_txt_question"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_security_question"
+                android:layout_width="fill_parent"
+                android:layout_height="70px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/question_kuang" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/setsecurity_txt_answer"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_security_answer"
+                android:layout_width="fill_parent"
+                android:layout_height="70px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/question_kuang" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

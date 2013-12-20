@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+    <issue id="CutPasteId" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/menulayout_below.xml" />
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/notelist.xml" />
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+    <issue id="Orientation">
+        <ignore path="res/layout/updatepic.xml" />
+    </issue>
+    <issue id="PxUsage">
+        <ignore path="res/layout/notelist.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+</lint>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+
+    <ImageView
+        android:id="@+id/img01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/app_icon_120_120" />
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img01"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/about_txt_appname"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt01"
+        android:gravity="center_horizontal"
+        android:text="@string/about_txt_appversion"
+        android:textColor="#324f85" />
+    
+    
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="@string/about_txt_appcopyright"
+        android:textColor="#777777" />
+    
+    <Button 
+        android:id="@+id/btn_touser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt03"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/btn_tosuer_bg"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/about_txt_touser"/>
+
+</RelativeLayout>

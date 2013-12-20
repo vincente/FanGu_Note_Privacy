@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titlebar" 
+        layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_below="@id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_old"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:hint="@string/modify_txt_oldpwd"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textColorHint="#999999" />
+
+            <EditText
+                android:id="@+id/et_new"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="@string/modify_txt_newpwd"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textColorHint="#999999" />
+
+            <EditText
+                android:id="@+id/et_confirm"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:hint="@string/modify_txt_confirmpwd"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textColorHint="#999999" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

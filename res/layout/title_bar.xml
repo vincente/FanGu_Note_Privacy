@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_bar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp">
+    <TextView
+        android:id="@+id/txt_title_left"
+        style="@style/TitleBar_Txt"
+        android:layout_marginLeft="5dp"
+        android:text="@string/titlebar_txt_back" />
+    <Button
+        android:id="@+id/btn_title_left"
+        style="@style/TitleBar_Btn"
+        android:background="@drawable/title_btn_left" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txt_title_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp">
+     <TextView
+        android:id="@+id/txt_title_right"
+		style="@style/TitleBar_Txt"
+		android:layout_marginRight="5dp"
+        android:text="@string/titlebar_txt_done" />
+    <Button
+        android:id="@+id/btn_title_right"
+        style="@style/TitleBar_Btn"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/title_btn_right_new" />
+	</FrameLayout>
+</LinearLayout>

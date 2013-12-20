@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/note_setting_gray_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/Linear_Divide_Settings01"
+                android:layout_marginTop="30dp" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_modify"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_modifypwd" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_question"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_setquestion" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <View
+                style="@style/Linear_Divide_Settings01"
+                android:layout_marginTop="30dp" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_about"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_about" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_share"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_share" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_myapps"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_myapps" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_random"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_random" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <View
+                style="@style/Linear_Divide_Settings01"
+                android:layout_marginTop="30dp" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_update_pic"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_theme" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_location"
+                style="@style/Setting_Linear_Style02" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_location" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+
+            <View
+                style="@style/Linear_Divide_Settings01"
+                android:layout_marginTop="30dp" />
+
+            <LinearLayout
+                android:id="@+id/setting_linear_update"
+                style="@style/Setting_Linear_Style02"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/setting_linear_update" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_triangle" />
+            </LinearLayout>
+
+            <View style="@style/Linear_Divide_Settings01" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

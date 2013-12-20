@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/title_bar" />
+
+        <EditText
+            android:id="@+id/et_reset_new"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:hint="@string/reset_txt_newpwd"
+            android:textColorHint="#999999"/>
+
+        <EditText
+            android:id="@+id/et_reset_confirm"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:maxLength="4"
+            android:inputType="numberPassword"
+            android:hint="@string/reset_txt_confirmpwd"
+            android:textColorHint="#999999" />
+    
+
+</LinearLayout>
